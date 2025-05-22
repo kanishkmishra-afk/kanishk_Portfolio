@@ -13,10 +13,10 @@ export const Projects=()=>{
                         <h3 className="text-xl font-bold mb-2">Blog-Space – A Full-Stack Blogging Platform</h3>
                         <p className="text-gray-400 mb-4"> 
                         "Designed and developed a full-stack blogging platform
-enabling user authentication, post creation, editing, image
-uploads, and secure private access to user content. Utilized
-React for the frontend, Appwrite for backend services and
-storage, and Redux Toolkit for efficient state management."
+                         enabling user authentication, post creation, editing, image
+                         uploads, and secure private access to user content. Utilized
+                         React for the frontend, Appwrite for backend services and
+                         storage, and Redux Toolkit for efficient state management."
 
                         </p>
                         <div>
@@ -37,8 +37,6 @@ storage, and Redux Toolkit for efficient state management."
                         </div>
                         <div className="flex items-center gap-1">
                             <img className="w-[200px] lg:w-[220px]" src="projectss1.jpeg" alt="" />
-                            <br />
-                            <img className="w-[200px] lg:w-[220px]" src="projectss2.jpeg" alt="" />
                             </div>
                     </div>
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
@@ -64,8 +62,6 @@ storage, and Redux Toolkit for efficient state management."
                         </div>
                         <div className="flex items-center gap-1">
                             <img className="w-[200px] lg:w-[220px]" src="project2ss1.png" alt="" />
-                            <br />
-                            <img className="w-[200px] lg:w-[220px]" src="project2ss2.png" alt="" />
                             </div>
                     </div>
                 </div>
