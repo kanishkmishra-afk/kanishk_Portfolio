@@ -26,15 +26,6 @@ A responsive and modern developer portfolio website built with **React**, **Tail
 
 ---
 
-## 📸 Screenshots
-
-| Homepage              | Contact Page           |
-|-----------------------|------------------------|
-| ![Homepage](./screenshots/home.png) | ![Contact](./screenshots/contact.png) |
-
-> *(Replace the image paths with actual screenshot file names and paths)*
-
----
 
 ## 🧑‍💻 Getting Started
 
