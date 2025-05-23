@@ -62,7 +62,7 @@ npm start
 
 🌐 Live Demo
 
-Visit Portfolio
+https://kanishk-portfolio-omega.vercel.app/
 
 
 ---
