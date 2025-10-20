@@ -10,7 +10,7 @@ export const Home=()=>{
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">Hi,I'm Kanishk Mishra</h1>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                I’m a front-end developer who thrives on turning ideas into interactive, responsive websites. I focus on writing clean, efficient code and building user interfaces that are fast, functional, and visually engaging.
+                Full‑stack dev who ships React UIs and Node/Express APIs on MongoDB/Mongoose, deploys to the cloud with CI/CD and keeps code clean and modular.
                 </p>
                 <div className="flex justify-center space-x-4">
                     <a href="#projects"
