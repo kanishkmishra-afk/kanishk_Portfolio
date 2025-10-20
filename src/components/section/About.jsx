@@ -5,7 +5,7 @@ export const About=()=>{
         "React.js (Hooks, routing)"," State Management(Redux Toolkit, Context API) ","TailwindCSS"
     ]
     const backendSkills=[
-        "Node.js","Express.js"," REST APIs ","Database Management"
+        "Node.js","Express.js","Flask","REST APIs","JWT Authentication","Cloudinary","Multer"
     ]
     const langauges=[
         "JavaScript","Java","C","Python","HTML5, CSS3 "
@@ -17,7 +17,7 @@ export const About=()=>{
         "Git", "GitHub", "Postman", "OpenSearch", "Vercel", "VS Code", "IntelliJ IDEA"
     ]
     const practices=[
-        "Authentication", "File upload", "Microservices", "Debugging", "Agile/Scrum", "CI/CD"
+        "JWT Authentication", "File upload", "Microservices", "Debugging", "Agile/Scrum", "CI/CD", "MVC Architecture"
     ]
     const realtime=[
         "Socket.io", "Cursor.ai", "Github Copilot", "Gen AI"
@@ -142,15 +142,19 @@ export const About=()=>{
                     </div>
                 </div>
 
-                <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
                     <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">Education</h3>
                         <ul className="list-disc list-inside text-gray-300 space-y-2">
                             <li>
-                                <strong>Master of Science in in computer Science</strong> -Thakur Ranmat Singh College,Rewa(mp) [2023-present]
+                                <strong>Master of Science in Computer Science</strong><br/>
+                                Thakur Ranmat Singh College, Rewa (MP)<br/>
+                                <span className="text-blue-400">Aug 2023 - Jul 2025</span>
                             </li>
                             <li>
-                                <strong>Bachelor of Science in in computer Science</strong> -Awadhesh Pratap Singh UniverSity,Rewa(mp) [2019-2023]
+                                <strong>Bachelor of Science (Hons) in Computer Science</strong><br/>
+                                Awadhesh Pratap Singh University, Rewa (MP)<br/>
+                                <span className="text-blue-400">Aug 2020 - Jul 2023</span>
                             </li>
                         </ul>
                     </div>
@@ -159,14 +163,32 @@ export const About=()=>{
                         <div className="space-y-4 text-gray-300">
                             <div>
                                 <h4 className="font-semibold">
-                                    Intern at coderTech(2025-current)
+                                    Software Engineering Intern | CODERTECH | Jan 2025 – Jun 2025
                                 </h4>
-                                <p className="text-gray-300 space-y-2 list-disc list-inside">
-                                    Assisted in building front-end components and intregration REST APIs
-                                </p>
+                                <ul className="text-gray-300 space-y-2 list-disc list-inside">
+                                    <li>Built responsive UI components with React and Tailwind for product browsing, cart, and checkout</li>
+                                    <li>Contributed to digital clinic management features</li>
+                                    <li>Developed REST APIs in Node.js and MongoDB</li>
+                                    <li>Collaborated through GitHub PRs and Agile sprints</li>
+                                    <li>Improved code quality via unit tests and static analysis</li>
+                                    <li>Supported CI workflows and code reviews</li>
+                                </ul>
                             </div>
                         </div>
-
+                    </div>
+                    <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4">Certifications</h3>
+                        <div className="space-y-4 text-gray-300">
+                            <div>
+                                <h4 className="font-semibold">
+                                    Software Development Internship Certificate
+                                </h4>
+                                <p className="text-gray-400 text-sm">
+                                    Contributed to real-world development tasks, building front-end components, integrating backend services, and collaborating on live projects. Gained hands-on experience and recognition for reliability, teamwork, and technical skills.
+                                </p>
+                                <span className="text-blue-400 text-sm">Jun 2025</span>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
