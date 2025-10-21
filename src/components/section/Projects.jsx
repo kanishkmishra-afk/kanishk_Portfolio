@@ -50,7 +50,8 @@ export const Projects=()=>{
                         </div>
                         <div className="flex justify-between items-center">
                             <div className="flex justify-between items-center gap-6">
-                            <a className="text-blue-400 hover:text-blue-300 transition-colors my-4" href="https://chat-app-1ifm.vercel.app/">GitHub Repo</a>
+                            <a className="text-blue-400 hover:text-blue-300 transition-colors my-4" href="https://chat-app-1ifm.vercel.app/">Live Link</a>
+                            <a className="text-blue-400 hover:text-blue-300 transition-colors my-4" href="https://github.com/kanishkmishra-afk/Chat-App">GitHub Repo</a>
                             </div>
                         </div>
                     </div>
