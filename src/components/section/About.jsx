@@ -166,12 +166,10 @@ export const About=()=>{
                                     Software Engineering Intern | CODERTECH | Jan 2025 – Jun 2025
                                 </h4>
                                 <ul className="text-gray-300 space-y-2 list-disc list-inside">
-                                    <li>Built responsive UI components with React and Tailwind for product browsing, cart, and checkout</li>
-                                    <li>Contributed to digital clinic management features</li>
-                                    <li>Developed REST APIs in Node.js and MongoDB</li>
-                                    <li>Collaborated through GitHub PRs and Agile sprints</li>
-                                    <li>Improved code quality via unit tests and static analysis</li>
-                                    <li>Supported CI workflows and code reviews</li>
+                                    <li> Developed 15+ REST APIs in Node.js and MongoDB, processing 1000+ daily requests; collaborated on 50+ GitHub PRs across 3-person Agile team.</li>
+                                    <li>Built responsive UI components with React and Tailwind for 3 core features (browsing, cart, checkout), improving user flow by 25%.</li>
+                                    <li>Improved code quality via unit tests achieving 85% coverage and static analysis.</li>
+                                    <li>supported CI workflows reducing deployment time by 40%.</li>
                                 </ul>
                             </div>
                         </div>

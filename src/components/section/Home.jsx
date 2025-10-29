@@ -10,7 +10,9 @@ export const Home=()=>{
                 <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent leading-right">Hi,I'm Kanishk Mishra</h1>
 
                 <p className="text-gray-400 text-lg mb-8 max-w-lg mx-auto">
-                Software Engineer specializing in MERN stack development. Building production-ready applications with React, Node.js, Express, MongoDB, and modern tools like JWT authentication, Socket.io, and Cloudinary.
+                Full-stack MERN developer with 6+ months hands-on experience building scalable web applications. 
+                Proficient in React, Node.js, Express, and MongoDB with expertise in real-time features, secure 
+                authentication, and CI/CD deployment. Delivered 3 production ready applications.
                 </p>
                 <div className="flex justify-center space-x-4">
                     <a href="#projects"
