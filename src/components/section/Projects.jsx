@@ -10,6 +10,30 @@ export const Projects=()=>{
                 </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
                     {/* VideoTube Backend - Most impressive project */}
+
+                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
+                        <h3 className="text-xl font-bold mb-2">E-COMMERCE WEBSITE — AI-Powered Full-Stack Platform</h3>
+                        <p className="text-gray-400 mb-4"> 
+                        An E-Commerce web application. It features user authentication, product catalog browsing, shopping cart functionality, and secure checkout flows. The application supports responsive design for a seamless experience across desktop and mobile devices. Real-time features and efficient state management ensure smooth interaction with product data and user sessions. The admin panel enables product management, order tracking, and user analytics, facilitating streamlined e-commerce operations. The project combines clean code, modular architecture, and deployment best practices to deliver a production-ready solution.
+                        </p>
+                        <div className="flex flex-wrap gap-2 mb-4">
+                            {["Node.js","Express.js","JWT Authentication","React","Tailwind CSS","Cloudinary","Multer","MongoDB","MVC Architecture","REST APIs","Firebase","API Integration","Payment Processing"].map((tech,key)=>(
+                                <span
+                                key={key}
+                                className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px_8px_rgba(59,130,246,0.1)] transition-all"
+                                >
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                        <div className="flex justify-between items-center">
+                            <div className="flex justify-between items-center gap-6">
+                            <a className="text-blue-400 hover:text-blue-300 transition-colors my-4" href="https://github.com/kanishkmishra-afk/ECommerce-Website">GitHub Repo</a>
+                            <a className="text-blue-400 hover:text-blue-300 transition-colors my-4" href="https://e-commerce-website-frontendone.onrender.com/">Live Link</a>
+                            </div>
+                        </div>
+                    </div>
+
                     <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px_8px_rgba(59,130,246,0.2)] transition-all">
                         <h3 className="text-xl font-bold mb-2">VideoTube — Production-Ready Backend API</h3>
                         <p className="text-gray-400 mb-4"> 

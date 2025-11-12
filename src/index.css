@@ -49,7 +49,7 @@ body{
 
 .reveal{
   opacity: 0;
-  transform: translateY(20px);
+  transform: translateY(100px);
   transition: opacity 1s ease, transform 1s ease;
 }
 
