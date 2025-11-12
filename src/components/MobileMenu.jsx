@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+// import react from "react"
 
 export const MobileMenu=({menuOpen,setMenuOpen})=>{
     return(
